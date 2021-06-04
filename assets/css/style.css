@@ -1,0 +1,140 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 120px 1fr 60px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "cabecalho"
+        "principal"
+        "rodape";
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    z-index: 1;
+    box-shadow: 0px 4px 9px -2px black;
+    background-color: rgb(46, 53, 45);
+}
+
+.cabecalho > h1 {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+
+.cabecalho > h2 {
+    margin: 0px;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+
+.principal {
+    grid-area: principal;
+    height: calc(100vh - 180px);
+    background-color: rgb(95, 128, 82);
+    padding: 20px;
+}
+
+.conteudo {
+    position: relative;
+    height:  100%;
+    overflow-y: scroll;
+    background-color:rgb(189, 221, 176);
+    padding: 20px;
+    box-shadow: 0px 0px 25px 0px black;
+}
+
+.rodape {
+    grid-area: rodape;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(46, 53, 45);
+    padding-right: 20px;
+    font-size: 0.8rem;
+    color:rgb(190, 195, 206);
+    position: sticky;
+    bottom: 0px;
+}
+
+.modulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.modulo {
+    flex-basis: 32%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.modulo > h3 {
+    margin: 0px;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: darkkhaki;
+}
+
+.modulo > ul {
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+}
+
+.modulo > ul > li {
+    margin: 7px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.modulo > ul > li > a{
+    display: flex;
+    text-decoration: none;
+    color:darkslategray;
+}
+
+.modulo > ul > li:hover{
+    background-color: rgb(161, 207, 154);
+}
+
+.modulo.verde { border: 2px solid rgb(177, 206, 157);}
+.modulo.verde > h3{ background-color: rgb(177, 206, 157);}
+
+.modulo.rosa { border: 2px solid rgb(206, 157, 190);}
+.modulo.rosa > h3{ background-color: rgb(206, 157, 190);}
+
+.modulo.azul { border: 2px solid rgb(114, 139, 192);}
+.modulo.azul > h3{ background-color: rgb(114, 139, 192);}
+
+.modulo.amarelo { border: 2px solid rgb(178, 192, 114);}
+.modulo.amarelo > h3{ background-color: rgb(178, 192, 114);}
+
+.modulo.laranja { border: 2px solid rgb(192, 149, 114);}
+.modulo.laranja > h3{ background-color: rgb(192, 149, 114);}
+
+.modulo.verde2 { border: 2px solid rgb(114, 192, 140);}
+.modulo.verde2 > h3{ background-color: rgb(114, 192, 140);}
+
+.modulo.cinza { border: 2px solid rgb(116, 114, 114);}
+.modulo.cinza > h3{ background-color: rgb(116, 114, 114);}
+
+.modulo.marrom { border: 2px solid rgb(192, 161, 114);}
+.modulo.marrom > h3{ background-color: rgb(192, 161, 114);}
+
+.modulo.vermelho { border: 2px solid rgb(192, 114, 114);}
+.modulo.vermelho > h3{ background-color: rgb(192, 114, 114);}
