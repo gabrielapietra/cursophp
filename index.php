@@ -26,11 +26,16 @@
                     </ul>
                 </div>
                 <div class="modulo rosa">
-                    <h3>Módulo 02</h3>
+                    <h3>Tipos</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=int">Tipo inteiro</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=float">Tipo float</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=aritmetica">Operaçẽs aritiméticas</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=desafio_precedencia">Desafio precedência</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=string">Tipo string</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=desafio_string">Desafio string</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=booleano">Tipo booleano</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=conversoes">Conversões</a></li>
                     </ul>
                 </div>
                 <div class="modulo azul">
