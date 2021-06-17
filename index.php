@@ -39,7 +39,7 @@
                     </ul>
                 </div>
                 <div class="modulo azul">
-                    <h3>Módulo 03</h3>
+                    <h3>Variáveis</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=variaveis&file=basico">Variáveis</a></li>
                         <li><a href="exercicio.php?dir=variaveis&file=desafio_equacao">Desafio equação</a></li>
@@ -52,11 +52,16 @@
                     </ul>
                 </div>
                 <div class="modulo cinza">
-                    <h3>Módulo 04</h3>
+                    <h3>Controle</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exercicio.php?dir=controle&file=if_else">If else</a></li>
+                        <li><a href="exercicio.php?dir=controle&file=operadores_relacionais">Op. relacionais</a></li>
+                        <li><a href="exercicio.php?dir=controle&file=desafio_pi">Desafio PI</a></li>
+                        <li><a href="exercicio.php?dir=controle&file=operadores_logicos">Operadores lógicos</a></li>
+                        <li><a href="exercicio.php?dir=controle&file=desafio_operadores_logicos">Desafio op. lógicos</a></li>
+                        <li><a href="exercicio.php?dir=controle&file=operador_ternario">Operador ternário</a></li>
+                        <li><a href="exercicio.php?dir=controle&file=switch">Switch</a></li>
+                        <li><a href="exercicio.php?dir=controle&file=desafio_switch">Desafio Switch</a></li>
                     </ul>
                 </div>
                 <div class="modulo laranja">
