@@ -65,17 +65,25 @@
                     </ul>
                 </div>
                 <div class="modulo laranja">
-                    <h3>Módulo 05</h3>
+                    <h3>Array</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exercicio.php?dir=array&file=basico">Array</a></li>
+                        <li><a href="exercicio.php?dir=array&file=mapa">Mapa</a></li>
+                        <li><a href="exercicio.php?dir=array&file=desafio_index">Desafio index</a></li>
+                        <li><a href="exercicio.php?dir=array&file=desafio_meses">Desafio meses</a></li>
+                        <li><a href="exercicio.php?dir=array&file=operacoes">Operações</a></li>
+                        <li><a href="exercicio.php?dir=array&file=desafio_sorteio">Desafio sorteio</a></li>
+                        <li><a href="exercicio.php?dir=array&file=multi">Multidimensionais</a></li>
+                        <li><a href="exercicio.php?dir=array&file=constantes">Arrays constantes</a></li>
+                        <li><a href="exercicio.php?dir=array&file=get">$_GET</a></li>
+                        <li><a href="exercicio.php?dir=array&file=post">$_POST</a></li>
+                        <li><a href="exercicio.php?dir=array&file=comparacao">Comparação arrays</a></li>
                     </ul>
                 </div>
                 <div class="modulo amarelo">
-                    <h3>Módulo 06</h3>
+                    <h3>Repetições</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=for">Laço for</a></li>
                         <li><a href="#">Exercício B</a></li>
                         <li><a href="#">Exercício C</a></li>
                     </ul>
