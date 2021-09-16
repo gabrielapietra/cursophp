@@ -96,9 +96,16 @@
                 <div class="modulo vermelho">
                     <h3>Funções</h3>
                     <ul>
-                        <li><a href="exercicio.php?dir=funcoes&file=escopo">Função & escopo</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=escopo">Função e escopo</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=args_retorno">Argumentos e retorno</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=palindromo">Desafio palíndromo</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=args_variaveis">Argumentos variáveis</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=arg_padrao">Argumento padrão</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=usando_tipos">Usando tipos</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=anonimas">Funções anônimas</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=closure_callable">Closure e callable</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=recursividade">Recursividade</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=desafio_recursao">Desafio recursão</a></li>
                     </ul>
                 </div>
                 <div class="modulo verde2">
