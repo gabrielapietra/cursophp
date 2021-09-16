@@ -84,8 +84,10 @@
                     <h3>Repetições</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=repeticoes&file=for">Laço for</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=desafio_for">Desafio for</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=foreach">Foreach</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=break_continue">Break/Continue</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=desaio_impressao">Desafio impressão</a></li>
                     </ul>
                 </div>
                 <div class="modulo vermelho">
